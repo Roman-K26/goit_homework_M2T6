@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit-homework-m2t6"
+version = "0.1.0"
+description = "SQL"
+authors = ["Roman-K26 <romankuspys777@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2-binary = "^2.9.9"
+faker = "^19.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
